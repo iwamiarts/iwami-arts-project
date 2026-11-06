@@ -1,0 +1,19 @@
+# IWAMI ARTS PROJECT 更新パッチ（2026年11月6日）
+
+## 今回の変更
+- 永妻倫のメンバー紹介写真を今回提供された白シャツのプロフィール写真に変更。
+- 永妻倫の肩書きを「公務員兼俳優」に変更。実行委員としての役割は本文で紹介。
+- 「まげまげレボリューション」をローカル番組事業（企画中）として追加。トップページ・事業一覧・専用ページに掲載。
+- 以前に制作した番組イメージ（AI生成）を利用。放送日未定であることを明記。
+
+## GitHub Desktop への反映
+1. 直前に適用した「国際交流イメージ追加・完全版」に、差分ファイルを適用してください。
+2. GitHub Desktopで「Fetch origin」、必要に応じて「Pull origin」を行います。
+3. リポジトリを「Show in Finder」で開き、更新ZIPから index.html / team.html / profile-nagatsuma.html / works.html / styles.css を上書きします。
+4. project-magemage-revolution.html を新しく配置します。
+5. imagesフォルダの新画像２点を既存のimagesフォルダに追加（フォルダ全体を丸ごと置換しない）。
+6. GitHub Desktopで「Commit to main」→「Push origin」を押します。
+7. 公開後、トップページ、team.html、profile-nagatsuma.html、project-magemage-revolution.html、works.html を確認。
+
+注意：差分ZIPに CNAME / news-data.js は入れていません。独自ドメイン、お知らせデータは変更されません。
+既存サイトが別の手作業で変更されている場合、上書き前に内容を比較してください。

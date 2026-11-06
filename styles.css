@@ -187,3 +187,43 @@
 .international-archive-poster img{display:block;width:100%;height:auto;box-shadow:0 12px 36px #102a2c26}
 .international-archive-poster figcaption{font-size:11px;line-height:1.65;color:#52645f;margin:12px 0 0}
 @media(max-width:590px){.international-photo--concept{min-height:0;box-shadow:12px 12px 0 #31514b}.international-photo--concept .image-disclaimer{font-size:9px;padding:10px 12px}.international-archive-poster{margin-top:27px}.international-archive-poster figcaption{font-size:10px}}
+
+
+/* 2026-11 | local media project / updated member portrait */
+.team-preview-photo img[src$="profile-nagatsuma-2026.webp"]{object-position:center 22%}
+.profile-portrait img[src$="profile-nagatsuma-2026.webp"]{object-fit:cover;object-position:center 18%;width:100%}
+.initiative-card--magemage img{object-fit:cover;object-position:center 26%;background:#f4eddb}
+.local-program-feature{background:#fffaf0;color:#23484a;border-top:1px solid #e4ded0;border-bottom:1px solid #e4ded0}
+.local-program-grid{display:grid;grid-template-columns:minmax(0,.82fr) minmax(0,1.18fr);align-items:center;gap:clamp(30px,5vw,80px)}
+.local-program-copy .eyebrow-tag{display:inline-block;margin:18px 0 10px}
+.local-program-copy h2{font-family:'Noto Serif JP',serif;font-size:clamp(30px,3.1vw,47px);line-height:1.45;margin:5px 0 19px}
+.local-program-copy h2 em{font-style:normal;color:#c56558}
+.local-program-name{font-weight:900!important;font-size:clamp(29px,3vw,47px)!important;letter-spacing:.035em;line-height:1.23!important;color:#193c3f!important;margin:18px 0!important}
+.local-program-copy>p:not(.kicker):not(.local-program-name){font-size:14px;line-height:2.1;color:#526b65}
+.local-program-copy .local-program-note{color:#99705d!important;font-size:12px!important}
+.local-program-art{margin:0}
+.local-program-art img{width:100%;height:auto;display:block;border-radius:5px;box-shadow:0 22px 60px #193a3924}
+.local-program-art figcaption{font-size:11px;color:#7c7c77;margin:12px 0 0;line-height:1.7}
+.iap-card-image--poster img{object-position:center top}
+.archive-photo--concept img{object-fit:contain!important;background:#e6e4db}
+.magemage-hero{background:linear-gradient(120deg,#142f30 0%,#184848 55%,#3e6860 100%);color:#fff}
+.magemage-hero h1{font-size:clamp(42px,5.8vw,77px);line-height:1.35;letter-spacing:.01em}
+.magemage-hero .iap-project-lead{color:#f9f1d8}
+.magemage-poster{margin:0 auto 65px;max-width:1120px}
+.magemage-poster a{display:block}
+.magemage-poster img{display:block;width:100%;height:auto;border-radius:6px;box-shadow:0 24px 70px #1434322c}
+.magemage-intro{max-width:960px;font-size:16px;line-height:2.15;color:#4e6561;margin:25px 0 40px}
+.magemage-corners{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin:0 0 50px}
+.magemage-corners article{background:#fbf7ed;border:1px solid #e4ddc9;padding:clamp(22px,3vw,35px);border-top:5px solid #d4a03a}
+.magemage-corners article:nth-child(2){border-top-color:#ca6a7a}
+.magemage-corners article:nth-child(3){border-top-color:#82b8cf}
+.magemage-corners span{font-size:11px;letter-spacing:.12em;color:#976e4e;font-weight:800}
+.magemage-corners h3{font-family:'Noto Serif JP',serif;font-size:clamp(21px,2.1vw,27px);color:#204748;margin:17px 0 10px;line-height:1.6}
+.magemage-corners h3 small{font-size:14px}
+.magemage-corners p{font-size:13px;line-height:2;color:#536863}
+.magemage-status{background:#173b3d;padding:30px 35px;color:#fff;margin-bottom:35px}
+.magemage-status strong{font-size:17px;color:#f0c1a5}
+.magemage-status p{font-size:14px;line-height:1.8;color:#edf1e9}
+.magemage-status a{color:#fff}
+@media(max-width:900px){.local-program-grid{grid-template-columns:1fr;gap:30px}.local-program-art{max-width:780px}.magemage-corners{grid-template-columns:1fr}}
+@media(max-width:590px){.local-program-feature{padding-block:70px}.local-program-name{font-size:33px!important}.magemage-hero h1{font-size:42px}.magemage-poster{margin-bottom:38px}.magemage-status{padding:25px 22px}}
