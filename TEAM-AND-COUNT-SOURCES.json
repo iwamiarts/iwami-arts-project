@@ -1,0 +1,27 @@
+{
+  "portrait-takeuchi": {
+    "source": "IWAMI ARTS PROJECT実行委員会 2025-06-12公式プレスリリース",
+    "link": "https://www.atpress.ne.jp/news/438914",
+    "primary_image": "https://www.atpress.ne.jp/releases/438914/img_438914_5.jpg",
+    "fallback": "images/profile-takeuchi-flyer.webp",
+    "note": "公開リリースの宣材写真。外部参照のため提供元によって表示に影響する場合あり。公開前に画像使用条件を確認。"
+  },
+  "portrait-ohata": {
+    "source": "IWAMI ARTS PROJECT実行委員会 2025-06-12公式プレスリリース",
+    "link": "https://www.atpress.ne.jp/news/438914",
+    "primary_image": "https://newscast.jp/attachments/J1y3ia7MAn1F2yBiRgeh.jpg",
+    "fallback": "images/profile-ohata-flyer.webp",
+    "note": "公開リリースの宣材写真。外部参照のため提供元によって表示に影響する場合あり。公開前に画像使用条件を確認。"
+  },
+  "performance_count": {
+    "value": 31,
+    "unit": "回",
+    "as_of": "2026-11",
+    "source": "IWAMI ARTS PROJECT代表から提供された最新数値"
+  },
+  "public_reference": [
+    "https://www.atpress.ne.jp/news/438914",
+    "https://artsiwami.localinfo.jp/posts/38199386/",
+    "https://daiki-takeuchi.bitfan.id/"
+  ]
+}
