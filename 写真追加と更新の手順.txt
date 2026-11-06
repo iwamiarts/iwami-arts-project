@@ -1,0 +1,57 @@
+IWAMI ARTS PROJECT / GitHub Pages 写真追加・更新ガイド
+更新版：2026年11月6日
+
+このZIPはWordPress用ではなく、GitHub Pages（iwamiarts/iwami-arts-project）用です。
+
+■ 公開中のサイトへ反映する方法（Mac / GitHub Desktop）
+1. ZIPファイルをMacに保存し、ダブルクリックで解凍してください。
+2. GitHub Desktopで iwami-arts-project を開き、Show in Finder をクリックします。
+3. 解凍したフォルダの「中身」をすべて選択し、GitHub Desktopで開いたフォルダにコピーします。
+   ※すでに公開中のお知らせを独自に追加している場合は、news-data.js を上書きしないでください。
+   ※すでに独自ドメインの CNAME を設定済みの場合も、そのファイルは保持してください。
+4. 同名ファイルは「置き換える」を選択します。フォルダの統合を尋ねられたら「結合」を選ぶと既存画像を残せます。
+   注意：リポジトリの .git フォルダは絶対に削除・置き換えしないでください。
+   「index.html」「works.html」「images」フォルダが直下にある必要があります。
+5. GitHub DesktopのChangesで変更を確認します。
+6. Summaryに「2021〜2026年の事業写真と紹介ページを追加」と入力します。
+7. Commit to main → Push origin を押します。
+8. GitHub Pagesの公開URLで確認します（数分〜最大10分程度かかることがあります）。
+   https://iwamiarts.github.io/iwami-arts-project/
+
+■ この版に含まれる写真とページ
+2026年『若草物語』 11枚：project-2026-wakakusa.html
+2025年 演劇教室 10枚：project-2025-theater-class.html
+2024年度 温泉津・総合芸術祭 7枚：project-2024-yunotsu.html
+2024年『あいと地球と競売人』大田公演 10枚：project-2024-ai-to-chikyu.html
+2024年 ミュージカル講座 2点（うち1点は告知資料）：project-2024-musical-class.html
+2023年 文化庁「文化芸術による子供育成推進事業」 5枚：project-2023-schools.html
+2021年 デジタルアート 4枚：project-2021-digital.html
+各種ワークショップ 4枚：project-workshops.html
+
+■ 写真の使用に関する大切な制限
+・『あいと地球と競売人』の写真10枚は作品紹介専用ページだけで表示するようにしてあります。
+  トップ、一般ギャラリー、作品一覧のサムネイルには一切使用していません。
+・新聞の切り抜き画像 IMG_2846.jpeg と IMG_1687.jpeg は公開用ZIPには含めていません。
+  著作権者・出版社等の許可確認後に掲載を検討してください。
+・子どもなど人物が写る画像の公開に必要な同意・使用範囲は公開前に確認してください。
+・舞台写真の撮影者クレジットが必要ならページごとに追記可能です。
+・2024年ミュージカル講座のチラシは当時の資料であり、現在の開催予定ではありません。
+
+■ お知らせを追加する方法
+https://iwamiarts.github.io/iwami-arts-project/news-editor.html
+① フォームで記事を作成 → news-data.js をダウンロード
+② GitHub Desktopのリポジトリフォルダの news-data.js を上書き
+③ Commit to main → Push origin
+記事一覧とトップページに反映されます。公開ページはログイン不要なので誤った案内を掲載しないよう確認してください。
+
+■ 独自ドメイン
+現時点では未取得のため CNAME ファイルは作成していません。取得後にGitHub Pagesの Settings→Pages→Custom domainを設定し、購入先でDNSを設定してください。
+詳細は同梱の CUSTOM-DOMAIN-GUIDE.txt をご参照ください。
+
+■ SNS
+Instagram: https://www.instagram.com/iwami_arts/
+X: https://x.com/ARTS_IWAMI
+
+■ 画像ファイル
+WebP形式に縮小・軽量化し、撮影情報等を含む元データはサイト用ZIPに入れていません。
+ページの画像を差し替える場合は images/ 以下のWebPを置き換えるか、HTMLのパスを編集してください。

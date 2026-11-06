@@ -94,3 +94,43 @@
 .wakakusa-photo-grid .gallery-item img{object-fit:cover}
 @media(max-width:850px){.hero-image{object-position:57% center}.hero-shade{background:linear-gradient(90deg,#082729e9,#0b3034b3 65%,#08272977),linear-gradient(0deg,#09282ada,transparent 44%)}.wakakusa-photo-grid{grid-auto-rows:190px}}
 @media(max-width:590px){.featured-photo{aspect-ratio:16/10}.hero-image{object-position:59% center}.hero-shade{background:linear-gradient(90deg,#09282de5,#082a2caf 65%,#09282d55),linear-gradient(0deg,#082127b9,transparent 45%)}.wakakusa-photo-story{padding:36px 0;margin:5px 0 45px}.wakakusa-photo-grid{grid-auto-rows:138px;gap:7px}}
+
+/* 2026.11 — 時代別フォトアーカイブ */
+.iap-project-highlights{background:#f7f4ee}
+.iap-project-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:19px;margin-top:30px}
+.iap-project-card{display:flex;flex-direction:column;overflow:hidden;text-decoration:none;background:#fff;border:1px solid rgba(26,56,54,.14);box-shadow:0 8px 24px rgba(24,55,53,.05);transition:transform .2s,box-shadow .2s}
+.iap-project-card:hover{transform:translateY(-4px);box-shadow:0 12px 32px rgba(24,55,53,.14)}
+.iap-card-image{width:100%;height:224px;background:#113437;overflow:hidden}
+.iap-card-image>img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s}
+.iap-project-card:hover .iap-card-image>img{transform:scale(1.04)}
+.iap-card-copy{padding:19px 20px 23px;flex:1}
+.iap-card-copy>span{display:block;font-size:10px;letter-spacing:.11em;color:#858f86;font-weight:700}
+.iap-card-copy h3{font-family:'Noto Serif JP',serif;font-size:19px;line-height:1.55;color:#173839;margin:12px 0 20px}
+.iap-card-copy em{font-size:12px;letter-spacing:.06em;color:#4f7666;font-style:normal;font-weight:700}
+.iap-card-no-image{height:224px;background:linear-gradient(125deg,#0c3439,#325259);color:#fff;display:flex;align-items:flex-start;justify-content:center;flex-direction:column;padding:24px}
+.iap-card-no-image span{font-size:10px;letter-spacing:.16em;color:#b8cec9}
+.iap-card-no-image strong{font-family:'Noto Serif JP',serif;line-height:1.6;font-size:22px;margin:12px 0}
+.iap-card-no-image small{font-size:11px;color:#bbd4cd}
+.iap-more-projects{text-align:center;margin:34px 0 0}
+.iap-archive-directory{padding:35px 0 65px;border-bottom:1px solid #e1e1d8;margin-bottom:48px}
+.iap-archive-directory h2{font-family:'Noto Serif JP',serif;font-size:clamp(24px,3vw,37px);line-height:1.5;color:#17393b;margin:16px 0 9px}
+.iap-directory-intro{color:#627572;font-size:14px}
+.iap-project-hero{background:#f1eee7;padding:84px 0 78px}
+.iap-project-title-row{display:flex;align-items:flex-end;gap:30px;justify-content:space-between}
+.iap-project-title-row h1{font-size:clamp(29px,4.8vw,58px);line-height:1.55;letter-spacing:.02em;font-family:'Noto Serif JP',serif;color:#16383b;max-width:1000px;margin:16px 0}
+.iap-project-year{font-family:Georgia,serif;font-size:clamp(26px,3.4vw,46px);color:#648c81;font-style:italic;flex-shrink:0;padding-bottom:25px}
+.iap-project-lead{max-width:850px;font-size:16px;line-height:2.15;color:#4c635e;margin:18px 0 26px}
+.iap-project-back{margin:20px 0 0;font-size:13px}
+.iap-project-back a{color:#26594e;text-decoration:none;border-bottom:1px solid #597b72;padding-bottom:5px}
+.iap-project-body{padding-top:57px;padding-bottom:100px}
+.iap-project-cover{height:clamp(240px,43vw,620px);background:#173536;overflow:hidden;margin-bottom:76px}
+.iap-project-cover>img{width:100%;height:100%;object-fit:cover;object-position:center center;display:block}
+.iap-project-gallery{grid-auto-rows:190px;gap:10px;margin-bottom:20px}
+.iap-project-gallery .gallery-item{min-height:0}
+.iap-project-gallery .gallery-item>img{object-fit:cover}
+.iap-project-gallery .gallery-caption{font-size:11px}
+.iap-photo-note{font-size:12px;line-height:1.8;color:#617370;margin:10px 0 35px}
+.iap-restriction-note{font-size:12px;line-height:1.7;color:#517064;margin-top:16px}
+.iap-project-card--text .iap-card-copy{background:#fff}
+@media(max-width:1000px){.iap-project-cards{grid-template-columns:repeat(2,minmax(0,1fr))}.iap-card-image,.iap-card-no-image{height:205px}}
+@media(max-width:640px){.iap-project-cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:11px;margin-top:20px}.iap-card-image,.iap-card-no-image{height:133px}.iap-card-copy{padding:13px 13px 18px}.iap-card-copy h3{font-size:14px;line-height:1.55;margin:7px 0 12px}.iap-card-copy>span,.iap-card-copy em{font-size:10px}.iap-card-no-image{padding:12px}.iap-card-no-image strong{font-size:14px;margin:9px 0}.iap-card-no-image span,.iap-card-no-image small{font-size:9px}.iap-project-hero{padding:50px 0 47px}.iap-project-title-row{display:block}.iap-project-title-row h1{font-size:clamp(27px,7vw,39px);line-height:1.6;margin:8px 0}.iap-project-year{font-size:22px;padding:0}.iap-project-lead{font-size:13px;line-height:2}.iap-project-body{padding-top:30px;padding-bottom:65px}.iap-project-cover{height:245px;margin-bottom:45px}.iap-project-gallery{grid-auto-rows:139px;gap:7px}.iap-project-gallery .gallery-item{min-height:0}.iap-archive-directory{padding-top:17px;margin-bottom:30px}}
