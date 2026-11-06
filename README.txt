@@ -1,2 +1,1 @@
-IWAMI ARTS PROJECT GitHub Pages 版
-詳しい公開とお知らせの編集手順は GITHUB-PAGES-README.txt をご覧ください。
+IWAMI ARTS PROJECT GitHub Pages 更新版 2026-11-06。はじめに「IAP_使い方ガイド.md」をお読みください。

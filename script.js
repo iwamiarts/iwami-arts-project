@@ -11,8 +11,8 @@ document.querySelectorAll('.year').forEach(el=>{el.textContent=new Date().getFul
 for(const img of document.querySelectorAll('img[data-fallback]')){
   img.addEventListener('error',()=>{
     if(img.dataset.fallback&&img.src!==new URL(img.dataset.fallback,document.baseURI).href){
-      img.src=img.dataset.fallback;img.alt+='（公式サイト画像を表示できないため代替コンセプト画像を表示中）';
-      const box=img.closest('.gallery-item');if(box){box.dataset.caption+='（公式画像が読み込めず代替画像を表示中）';box.dataset.category='concept';}
+      img.src=img.dataset.fallback;img.alt+='（活動写真を読み込めなかったため、写真準備中の案内を表示しています）';
+      const box=img.closest('.gallery-item');if(box){box.dataset.caption+='（写真が読み込めませんでした）';box.dataset.category='pending';}
     }
   });
 }
