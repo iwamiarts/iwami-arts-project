@@ -1,0 +1,22 @@
+IWAMI ARTS PROJECT｜国際交流『ロミオとジュリエット』イメージ画像の追加
+2026年11月6日
+
+今回の変更：
+・トップページ「私たちの取り組み」内の国際交流カードに、日韓共同制作『ロミオとジュリエット』のAI構想画像を掲載。
+・トップページ「国際交流・共同創作」の画像を差し替え、全体を見られるように変更。
+・「活動の記録」ページの国際交流欄にも画像を追加。
+・実際の公演写真ではないこと、企画構想段階であることを明記。
+
+【差分更新ZIPの場合】
+1. ダウンロードしたZIPを解凍します。
+2. GitHub Desktopで iwami-arts-project を選び、Fetch originを行い、Pull originが出たら実行します。
+3. Show in Finder を押して、リポジトリのフォルダを開きます。
+4. 解凍した index.html / works.html / styles.css をリポジトリ直下に上書きコピーします。
+5. 解凍した images フォルダの中の .webp 写真を、リポジトリの images フォルダに追加します。画像フォルダ全体を置き換えないでください。
+6. GitHub Desktopで変更を確認後、Summaryを記入して Commit to main → Push origin を実行します。
+7. https://iwamiarts.jp/#international と https://iwamiarts.jp/works.html で反映を確認します。
+
+【注意】
+・CNAMEを削除または上書きしないでください。独自ドメインの設定は維持されます。
+・お知らせ記事の news-data.js やメンバーページは今回変更しません。
+・掲載画像はイメージ図です。公演実施や配役決定を意味しません。

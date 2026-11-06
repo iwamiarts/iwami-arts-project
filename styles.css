@@ -163,3 +163,27 @@
 @media(max-width:1000px){.team-preview-card{grid-template-columns:39% 61%}.team-preview-body{padding:20px}.team-preview-photo{min-height:270px}.profile-layout{grid-template-columns:37% minmax(0,1fr);gap:35px}}
 @media(max-width:720px){.team-preview-grid{grid-template-columns:1fr;gap:16px}.team-preview-card{min-height:220px}.team-preview-photo{min-height:245px}.team-banner-inner{align-items:start;flex-direction:column}.profile-layout,.profile-next{grid-template-columns:1fr}.profile-portrait{max-width:480px;margin:0 auto}.profile-records{grid-template-columns:1fr}.profile-content h2{margin-top:25px}.profile-next{gap:25px}.profile-hero h1 em{font-size:24px}.team-spotlight{padding-block:60px}}
 @media(max-width:460px){.team-preview-card{grid-template-columns:37% 63%}.team-preview-photo{min-height:235px}.team-preview-body{padding:16px 14px;gap:7px}.team-preview-body h3{font-size:22px}.team-preview-body small{font-size:8px}.team-preview-body p{font-size:11px}.team-preview-body span{margin-top:8px;font-size:10px}.team-metric strong{font-size:65px}.profile-content p{font-size:13px}.profile-content .profile-lead{font-size:14px}.profile-records h3{font-size:20px}}
+
+/* 2026.11 member directory / SCOT emphasis */
+.team-preview-grid.team-directory{grid-template-columns:repeat(2,minmax(0,1fr))}
+.team-preview-photo.team-preview-stage{background:#142528;display:flex;align-items:center}
+.team-preview-photo.team-preview-stage .person-photo{object-fit:contain;object-position:center;max-height:100%;background:#142528}
+.scot-spotlight{border-left:4px solid #b66d4d;background:#eff1e9;padding:clamp(20px,2.5vw,33px);margin:28px 0}
+.scot-spotlight .scot-kicker{font-size:10px;color:#a46a4e;letter-spacing:.13em;line-height:1.5;margin-bottom:12px}
+.scot-spotlight h3{font-family:'Noto Serif JP',serif;font-size:clamp(22px,2.5vw,31px);line-height:1.6;color:#193d3e;font-weight:600;margin:8px 0 13px}
+.scot-spotlight p{margin:0;font-size:13px;line-height:2;color:#385a57}
+.scot-spotlight p strong{color:#173a3c}
+.profile-stage-portrait .person-photo{aspect-ratio:4/3;object-fit:contain;background:#13272a;box-shadow:16px 16px 0 #d6e1d9}
+@media(max-width:720px){.team-preview-grid.team-directory{grid-template-columns:1fr}}
+
+/* 2026-11-06: Japanese-Korean Romeo & Juliet concept poster. */
+.international-photo--concept{min-height:0;aspect-ratio:auto;margin:0;background:#102c2f;overflow:visible}
+.international-photo--concept a{display:block;width:100%;line-height:0}
+.international-photo--concept img{position:relative;display:block;width:100%;height:auto;object-fit:contain}
+.international-photo--concept .image-disclaimer{position:static;display:block;width:100%;background:#11272b;color:#e6ece9;font-size:10px;line-height:1.65;letter-spacing:.03em;padding:12px 16px}
+.initiative-card.initiative-4>img{object-position:70% center}
+.international-archive-poster{max-width:1040px;margin:45px auto 0}
+.international-archive-poster a{display:block;line-height:0}
+.international-archive-poster img{display:block;width:100%;height:auto;box-shadow:0 12px 36px #102a2c26}
+.international-archive-poster figcaption{font-size:11px;line-height:1.65;color:#52645f;margin:12px 0 0}
+@media(max-width:590px){.international-photo--concept{min-height:0;box-shadow:12px 12px 0 #31514b}.international-photo--concept .image-disclaimer{font-size:9px;padding:10px 12px}.international-archive-poster{margin-top:27px}.international-archive-poster figcaption{font-size:10px}}
