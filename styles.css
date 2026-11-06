@@ -76,3 +76,21 @@
 .news-article .arrow-link{margin-top:7px}
 .news-loading{font-size:13px;padding-block:20px;color:#6d7976}
 @media(max-width:590px){.news-article{padding:28px 0 36px}.news-article p{font-size:12px}}
+
+
+/* 2026 若草物語 公演写真の追加（2026-11-06） */
+.hero-image{object-position:center 40%}
+.hero-shade{background:linear-gradient(90deg,rgba(5,23,29,.91) 0%,rgba(5,23,29,.66) 42%,rgba(5,23,29,.04) 100%),linear-gradient(0deg,rgba(5,23,29,.69),transparent 29%)}
+.hero-visual-note{max-width:35%;text-align:center}
+.featured-photo{aspect-ratio:16/10;background:#0b0b0b}
+.featured-photo>img{object-fit:contain}
+.intro-main-photo>img{object-position:center 30%}
+.intro-small-photo>img{object-position:center 38%}
+.wakakusa-photo-story{padding:48px 0 56px;margin:22px 0 58px;border-block:1px solid #c9cdc4}
+.wakakusa-photo-heading h3{font-family:'Noto Serif JP',serif;font-size:clamp(26px,3.4vw,42px);color:#173b3c;line-height:1.5;margin:12px 0 9px}
+.wakakusa-photo-heading>p:last-child{color:#637470;font-size:13px;margin:0 0 24px}
+.wakakusa-photo-grid{grid-auto-rows:165px;gap:10px}
+.wakakusa-photo-grid .gallery-item{min-height:0}
+.wakakusa-photo-grid .gallery-item img{object-fit:cover}
+@media(max-width:850px){.hero-image{object-position:57% center}.hero-shade{background:linear-gradient(90deg,#082729e9,#0b3034b3 65%,#08272977),linear-gradient(0deg,#09282ada,transparent 44%)}.wakakusa-photo-grid{grid-auto-rows:190px}}
+@media(max-width:590px){.featured-photo{aspect-ratio:16/10}.hero-image{object-position:59% center}.hero-shade{background:linear-gradient(90deg,#09282de5,#082a2caf 65%,#09282d55),linear-gradient(0deg,#082127b9,transparent 45%)}.wakakusa-photo-story{padding:36px 0;margin:5px 0 45px}.wakakusa-photo-grid{grid-auto-rows:138px;gap:7px}}

@@ -1,0 +1,36 @@
+IWAMI ARTS PROJECT｜写真追加版（2026-11-06）
+
+【新規追加画像】
+・ミュージカル『若草物語』2026年：ユーザーから提供された集合写真1枚＋関連写真10枚。
+・全て images/wakakusa-*.webp として軽量化して格納。
+・ページ上の写真キャプションは「本番写真」「稽古写真」など記録内容の範囲で表示しています。
+・撮影者・著作権表示が必要な場合は、公開前に確認して追記してください。
+・写真に写る出演者・未成年者などの掲載同意についても、サイト運営者側で確認してください。
+
+【元画像とサイト内ファイル】
+894CBE75-75D8-4CBA-B06B-3E16E831B123(1).jpeg  ->  images/wakakusa-cast-finale.webp  (終演記念の集合写真)
+IMG_9435.jpeg  ->  images/wakakusa-stage-solo.webp  (舞台のワンシーン)
+IMG_9434(1).jpeg  ->  images/wakakusa-stage-dialogue.webp  (舞台のワンシーン)
+IMG_9432.jpeg  ->  images/wakakusa-stage-bedside.webp  (舞台のワンシーン)
+IMG_9433(2).jpeg  ->  images/wakakusa-stage-sisters.webp  (舞台のワンシーン)
+IMG_9428.jpeg  ->  images/wakakusa-rehearsal-cast.webp  (稽古風景)
+IMG_9427.jpeg  ->  images/wakakusa-rehearsal-costume.webp  (稽古風景)
+IMG_9425(1).jpeg  ->  images/wakakusa-stage-red.webp  (舞台のワンシーン)
+IMG_9423(2).jpeg  ->  images/wakakusa-stage-sewing.webp  (舞台のワンシーン)
+IMG_9422(2).jpeg  ->  images/wakakusa-stage-chorus.webp  (舞台のワンシーン)
+IMG_9421.jpeg  ->  images/wakakusa-stage-ensemble.webp  (舞台のワンシーン)
+
+【掲載場所】
+index.html : トップ・イントロ・公演特集・活動カード・ギャラリー・SNSイメージ（SNS投稿の自動同期ではありません）
+works.html : 『若草物語』紹介写真 + 舞台写真ギャラリー（拡大機能あり）
+about.html : 団体紹介ページにも『若草物語』の実際の舞台／稽古写真
+
+【GitHub Desktopに反映する方法】
+1. このZIPを解凍する。
+2. GitHub Desktop > Show in Finder で iwami-arts-project フォルダを開く。
+3. 解凍フォルダの「中身」をすべてコピーして上書き（.git フォルダはそのまま）。
+4. GitHub Desktopで変更を確認し、Summaryに「『若草物語』舞台写真を追加」と入力。
+5. Commit to main → Push origin。
+6. 公開URL https://iwamiarts.github.io/iwami-arts-project/ を確認。
+
+※ このZIPを作成しただけでは、公開サイトは更新されません。
