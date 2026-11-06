@@ -1,0 +1,99 @@
+IWAMI ARTS PROJECT｜GitHub Pages 独自ドメイン設定ガイド
+=========================================================
+
+【現在の状態】
+この配布データは、GitHub標準URLでも独自ドメインでも動くよう、
+ページ・画像・CSS・JavaScriptの参照を相対パスで統一しています。
+まだ独自ドメインは取得・設定していません。
+
+推奨候補：iwamiarts.jp（取得可能かどうかは未確認）
+新しいドメインを取得したら次の手順で切り替えられます。
+
+■ 1｜まず無料のGitHub Pagesで公開する
+公開先のリポジトリ名は iwami-arts-project を想定。
+GitHubで Settings → Pages → Build and deployment → Deploy from a branch
+→ main / (root) を選択して保存します。
+公開URLの例：
+https://あなたのGitHubユーザー名.github.io/iwami-arts-project/
+
+※ このZIPに「CNAME」というファイルをあえて入れていません。
+   ドメインを買っていない状態で有効化すると、無料URLでの公開に支障が
+   出る場合があるためです。
+
+■ 2｜独自ドメインを取得する
+ドメイン登録事業者で利用可能かを確認して取得します。
+第一候補：iwamiarts.jp
+独自ドメインの取得・更新には料金がかかります。
+
+■ 3｜所有ドメインの確認をする（推奨）
+GitHubアカウントの Settings → Pages から「Add a domain」でドメインを登録し、
+表示された指示に従ってDNSのTXTレコードで所有確認を行います。
+これは第三者によるドメイン乗っ取りなどのリスクを減らすための手順です。
+TXTの値はGitHubが表示するものを使用してください。
+
+■ 4｜GitHub Pages側でカスタムドメインを設定する
+サイトのリポジトリを開きます。
+Settings → Pages → Custom domain の欄に、取得したドメインを入力して Save。
+例：iwamiarts.jp
+main ブランチのルートから公開している場合、GitHubが「CNAME」ファイルを
+自動的に作成します。手動で作成する必要はありません。
+
+必ずGitHub側に設定した後で、ドメイン事業者のDNSを変更してください。
+
+■ 5｜ドメイン事業者のDNSを設定する
+（「iwamiarts.jp」を利用する場合の例）
+
+【ルートドメイン iwamiarts.jp 用：Aレコード】
+タイプ：A    ホスト名：@    値：185.199.108.153
+タイプ：A    ホスト名：@    値：185.199.109.153
+タイプ：A    ホスト名：@    値：185.199.110.153
+タイプ：A    ホスト名：@    値：185.199.111.153
+
+【www.iwamiarts.jp 用：CNAMEレコード】
+タイプ：CNAME    ホスト名：www    値：あなたのGitHubユーザー名.github.io
+（例：アカウント名が example-owner なら example-owner.github.io）
+
+※ CNAMEの値に「/iwami-arts-project/」を付けないでください。
+※ wwwの向け先に「iwamiarts.jp」を指定しないでください。
+※ DNS事業者によって「ホスト名」に @ を入れる代わりに空欄を使う場合があります。
+※ 既存の競合するDNSレコードがある場合は内容を確認してから変更します。
+※ 上記はGitHub公式ドキュメントに掲載された設定値です。
+
+【任意：IPv6に対応する場合のAAAAレコード】
+タイプ：AAAA  ホスト名：@  値：2606:50c0:8000::153
+タイプ：AAAA  ホスト名：@  値：2606:50c0:8001::153
+タイプ：AAAA  ホスト名：@  値：2606:50c0:8002::153
+タイプ：AAAA  ホスト名：@  値：2606:50c0:8003::153
+
+■ 6｜HTTPSを有効にする
+DNSが反映され、GitHubで証明書が準備されたら、
+Settings → Pages → Enforce HTTPS を有効にします。
+DNS反映には最大24時間程度かかることがあります。
+これで https://iwamiarts.jp/ を公式URLとして使用できます。
+wwwも設定してあれば、GitHub Pages側で適切にリダイレクトできます。
+
+■ 7｜公開後に確認すること
+□ https://iwamiarts.jp/ が開ける
+□ https://www.iwamiarts.jp/ が公式URLへ転送される
+□ スマホ・PCで写真やデザインが表示される
+□ about.html / works.html / news.html が動く
+□ お知らせを追加するとトップページに反映される
+□ Instagram・Xなどのリンクが動く
+□ 写真・ロゴ・文章の掲載権利および連絡先が確認済み
+
+■ サイトの変更は必要？
+このHTMLサイトは相対パスを使っているので、ドメインを切り替えても
+通常はHTMLの書き換えは不要です。独自ドメインを登録した後にGitHub Pagesの
+「Custom domain」とDNSを正しく設定すれば公開URLが切り替わります。
+独自ドメインにあわせてOGP画像やcanonical URLなどを追加する場合は、
+ドメインの取得が確定してから設定してください。
+
+■ 注意
+・取得していないドメインを現時点で設定しないでください。
+・ワイルドカードDNS（*.iwamiarts.jp）は設定しないでください。
+・GitHubリポジトリは公開状態になり、アップロードしたファイルも公開されます。
+・ドメインの購入とDNSの操作はアカウント所有者側で行ってください。
+
+公式手順：
+https://docs.github.com/ja/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site
+https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages
