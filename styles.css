@@ -208,6 +208,9 @@
 .archive-photo--concept img{object-fit:contain!important;background:#e6e4db}
 .magemage-hero{background:linear-gradient(120deg,#142f30 0%,#184848 55%,#3e6860 100%);color:#fff}
 .magemage-hero h1{font-size:clamp(42px,5.8vw,77px);line-height:1.35;letter-spacing:.01em}
+.magemage-hero .iap-project-title-row h1{color:#fff}
+.magemage-hero .iap-project-year{color:#f5c8a7}
+.magemage-hero .iap-project-back a{color:#f2eee4;border-bottom-color:#b5d0ca}
 .magemage-hero .iap-project-lead{color:#f9f1d8}
 .magemage-poster{margin:0 auto 65px;max-width:1120px}
 .magemage-poster a{display:block}
