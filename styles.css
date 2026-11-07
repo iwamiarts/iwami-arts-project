@@ -310,3 +310,7 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
 @media (max-width:760px){.iap-detail-grid,.iap-future-panel,.iap-wakakusa-overview{grid-template-columns:1fr}.iap-detail-page{padding-top:36px}.iap-detail-grid{padding:8px 0 30px}.iap-future-panel{gap:24px;padding:21px}.iap-future-panel img{height:auto;max-height:420px;object-fit:contain}.iap-archive-summary{margin:-10px 0 36px}.iap-wakakusa-overview{gap:20px}.iap-credit-list{grid-template-columns:1fr 1fr}.iap-video-strip{flex-direction:column;align-items:flex-start;margin:-17px 0 44px}.iap-team-partners{padding:24px 4px}.iap-detail-grid article>p{font-size:14px}.iap-detail-grid h2{font-size:27px}}
 @media(max-width:440px){.iap-credit-list{grid-template-columns:1fr}.iap-credit-list>div{gap:16px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+
+/* Four member cards: balanced layout on both large and small screens */
+#team-preview .team-preview-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(max-width:720px){#team-preview .team-preview-grid{grid-template-columns:1fr}}

@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-Disallow: /news-editor.html
 Sitemap: https://iwamiarts.jp/sitemap.xml
