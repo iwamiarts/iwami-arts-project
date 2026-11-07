@@ -227,3 +227,83 @@
 .magemage-status a{color:#fff}
 @media(max-width:900px){.local-program-grid{grid-template-columns:1fr;gap:30px}.local-program-art{max-width:780px}.magemage-corners{grid-template-columns:1fr}}
 @media(max-width:590px){.local-program-feature{padding-block:70px}.local-program-name{font-size:33px!important}.magemage-hero h1{font-size:42px}.magemage-poster{margin-bottom:38px}.magemage-status{padding:25px 22px}}
+
+
+/* Official character: Tatsunoko-kun — all original PNG files remain byte-for-byte unchanged. */
+.site-nav a[href="character.html"]{color:#b86645}
+.footer .tatsunoko-footer-strip{margin-top:20px;border-top:1px solid #355057;padding-top:6px}
+.tatsunoko-footer-link{display:inline-flex;align-items:center;gap:5px;color:#e8eeea;text-decoration:none}
+.tatsunoko-footer-link img{width:90px;height:90px;object-fit:contain;flex:0 0 auto}
+.tatsunoko-footer-link strong{display:block;font-size:13px;color:#f2be9e;letter-spacing:.08em}
+.tatsunoko-footer-link small{display:block;font-size:11px;line-height:1.7;color:#d1ded7;margin-top:5px}
+.tatsunoko-footer-link:hover strong{text-decoration:underline}
+.tatsunoko-home-feature{background:#fffaf2;border-top:1px solid #edebe0;border-bottom:1px solid #edebe0;overflow:hidden;padding-block:55px}
+.tatsunoko-home-inner{display:grid;grid-template-columns:minmax(180px,32%) minmax(0,1fr);gap:clamp(12px,4vw,60px);align-items:center;position:relative}
+.tatsunoko-home-art{position:relative;background:#f2f6e5;border-radius:45% 55% 45% 55%;min-height:270px;display:grid;place-items:center}
+.tatsunoko-home-art img{width:min(100%,340px);height:auto;object-fit:contain;display:block}
+.tatsunoko-home-copy{position:relative;z-index:1}
+.tatsunoko-home-copy h2{font-family:'Noto Serif JP',serif;color:#1b4949;font-size:clamp(29px,3.8vw,51px);line-height:1.55;margin:16px 0}.tatsunoko-home-copy h2 em{font-style:normal;color:#ba765a}
+.tatsunoko-home-copy p:not(.kicker){font-size:14px;line-height:2;color:#435b54;margin-bottom:22px}
+.tatsunoko-home-bubble{position:absolute;right:7%;top:4%;color:#1c5553;border:2px solid #c9dfb7;background:#fff;border-radius:55% 50% 52% 50%;padding:16px 24px;transform:rotate(9deg);font-size:12px;font-weight:700}
+#news .section-top{position:relative}
+.tatsunoko-news-peek{display:block;position:absolute;right:0;top:0;width:100px;height:100px;opacity:.95}
+.tatsunoko-news-peek img{display:block;width:100%;height:100%;object-fit:contain}
+.tatsunoko-crumb-link{display:inline-flex;gap:0px;align-items:center;float:right;color:#b85c43;font-size:11px;font-weight:700;white-space:nowrap}
+.tatsunoko-crumb-link img{width:66px;height:66px;object-fit:contain}
+.tatsunoko-crumb-link:hover{text-decoration:underline}
+/* Character introduction */
+.page-character .site-nav a[href="character.html"]{border-bottom:2px solid #bb7357}
+.tatsunoko-intro-hero{background:radial-gradient(circle at 80% 40%,#e3f0d4 0,#eff4e5 32%,#fbf5e9 70%);overflow:hidden;position:relative}
+.tatsunoko-intro-hero-grid{display:grid;grid-template-columns:1.1fr .9fr;align-items:center;min-height:590px;gap:0}
+.tatsunoko-intro-copy{padding:75px 0 85px;position:relative;z-index:1}
+.tatsunoko-intro-copy .kicker{color:#a9634c;font-size:11px;letter-spacing:.16em}
+.tatsunoko-intro-tag{display:inline-block;border:1px solid #e9b79c;background:#fffdf6;color:#b36d50;border-radius:99px;padding:10px 19px;font-size:13px;font-weight:700;margin-top:28px;transform:rotate(-4deg)}
+.tatsunoko-intro-copy h1{font-family:'Noto Serif JP',serif;font-weight:750;font-size:clamp(49px,6.4vw,94px);letter-spacing:.01em;line-height:1.28;margin:20px 0 5px;color:#204c48}
+.tatsunoko-intro-copy h1 span{color:#cc7658}.tatsunoko-intro-copy h1 b{color:#ebaf81}
+.tatsunoko-intro-english{color:#9fae95;letter-spacing:.19em;font-size:12px;font-weight:700}
+.tatsunoko-intro-lead{font-family:'Noto Serif JP',serif;font-size:clamp(19px,2.1vw,27px);color:#254846;line-height:1.9;margin:33px 0 15px}
+.tatsunoko-intro-lead strong{color:#be765e}
+.tatsunoko-intro-description{font-size:14px;line-height:2.1;color:#58645f;max-width:470px}
+.tatsunoko-scroll-link{display:inline-flex;align-items:center;gap:25px;margin-top:30px;color:#1a5652;font-size:12px;border-bottom:1px solid #95aca3;padding-bottom:12px;font-weight:700}
+.tatsunoko-intro-main-art{position:relative;display:flex;align-items:center;justify-content:center;min-height:470px}
+.tatsunoko-intro-main-art:before{content:'';position:absolute;width:84%;aspect-ratio:1;border-radius:50%;background:#d4e7c7;filter:blur(2px)}
+.tatsunoko-intro-main-art img{position:relative;z-index:1;display:block;width:100%;height:auto;max-width:620px;object-fit:contain}
+.tatsunoko-art-spark{position:absolute;z-index:2;right:9%;top:20%;font-size:65px;color:#dba653}
+.tatsunoko-origin{background:#fffdf9}
+.tatsunoko-origin-grid{display:grid;grid-template-columns:1.1fr .8fr;gap:50px;align-items:center}
+.tatsunoko-origin .section-title{font-size:clamp(31px,3.7vw,48px);line-height:1.7}
+.tatsunoko-origin .section-title em{color:#cf8664;font-style:normal}
+.tatsunoko-origin p:not(.kicker){color:#52645e;font-size:14px;line-height:2.25;margin:0 0 19px}.tatsunoko-origin strong{color:#275650}
+.tatsunoko-origin-art{margin:0;background:#f2f4e7;border-radius:5px;text-align:center}
+.tatsunoko-origin-art img{display:block;width:100%;height:auto;max-width:440px;margin:auto}
+.tatsunoko-origin-art figcaption{padding:0 18px 30px;font-size:11px;color:#66746e;line-height:1.8}
+.tatsunoko-expressions{background:#eaf0e8}
+.tatsunoko-expressions .section-title em{font-style:normal;color:#b26b53}
+.tatsunoko-faces-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin-top:35px}
+.tatsunoko-face-card{margin:0;background:#fffdf8;border:1px solid #d8e4d4;border-radius:9px;overflow:hidden;transition:transform .2s,box-shadow .2s}
+.tatsunoko-face-card:hover{transform:translateY(-4px);box-shadow:0 12px 35px #24402e17}
+.tatsunoko-face-card img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:contain}
+.tatsunoko-face-card figcaption{border-top:1px solid #e6e9df;padding:15px 20px;color:#294c47;font-weight:800;font-size:16px;letter-spacing:.08em}
+.tatsunoko-face-card figcaption span{font-family:Georgia,serif;font-size:12px;color:#bd8062;margin-right:14px}
+.tatsunoko-next{background:#163c40;color:#fff;overflow:hidden}
+.tatsunoko-next-grid{display:grid;grid-template-columns:1fr .55fr;align-items:center;gap:20px}
+.tatsunoko-next .kicker{color:#e8b49c}.tatsunoko-next h2{font-family:'Noto Serif JP',serif;font-size:clamp(31px,4.1vw,57px);line-height:1.6;margin:18px 0}.tatsunoko-next h2 em{font-style:normal;color:#ecbd97}
+.tatsunoko-next p:not(.kicker){font-size:14px;color:#d1ddd6;line-height:2}
+.tatsunoko-next-grid>img{width:100%;height:auto;max-width:420px;justify-self:center}
+.tatsunoko-next-links{display:flex;flex-wrap:wrap;gap:15px;margin-top:25px}.tatsunoko-next-light{color:white!important;border:1px solid #fff8!important}
+@media(max-width:980px){.tatsunoko-news-peek{right:-8px;width:78px;height:78px}.tatsunoko-home-bubble{right:0;top:-8px}}
+@media(max-width:720px){.tatsunoko-home-inner{grid-template-columns:1fr}.tatsunoko-home-art{min-height:210px;max-width:340px;margin:0 auto;width:100%}.tatsunoko-home-bubble{right:6%;top:0}.tatsunoko-intro-hero-grid,.tatsunoko-origin-grid,.tatsunoko-next-grid{grid-template-columns:1fr}.tatsunoko-intro-hero-grid{min-height:0}.tatsunoko-intro-copy{padding:55px 0 10px}.tatsunoko-intro-main-art{min-height:0}.tatsunoko-intro-main-art img{max-width:470px}.tatsunoko-intro-main-art:before{width:72%}.tatsunoko-faces-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.tatsunoko-next-grid>img{max-width:270px}.tatsunoko-crumb-link img{width:48px;height:48px}.tatsunoko-crumb-link{font-size:9px}.tatsunoko-news-peek{position:static;margin-left:auto}.tatsunoko-intro-lead{font-size:19px}}
+@media(max-width:420px){.tatsunoko-intro-copy h1{font-size:46px}.tatsunoko-expressions .section-title{font-size:27px}.tatsunoko-face-card figcaption{padding:12px;font-size:13px}.tatsunoko-face-card figcaption span{margin-right:8px}.tatsunoko-crumb-link span{display:none}.tatsunoko-next-links{display:block}.tatsunoko-next-links a{margin-bottom:12px}.tatsunoko-footer-link img{width:75px;height:75px}}
+
+/* 鈴木忠志の引用注釈 / 2026-11-06 */
+.quote-attribution{font-size:12px;line-height:1.7;letter-spacing:.02em;opacity:.82;margin:.6em 0 1.3em;}
+.manifesto .quote-attribution{color:#eee9e1;opacity:.86;}
+
+/* Site-wide content and accessibility polish · 2026-11-06 */
+html{overflow-x:clip}img{height:auto}a{text-underline-offset:3px}
+:focus-visible{outline:3px solid #d16c38;outline-offset:3px}
+button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:3px solid #d16c38;outline-offset:3px}
+.iap-detail-page{max-width:1100px}.iap-detail-grid{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(240px,0.85fr);gap:clamp(28px,5vw,70px);padding:30px 0 60px}.iap-detail-grid h2,.iap-future-panel h2{font-family:'Noto Serif JP',serif;font-size:clamp(26px,3.4vw,40px);line-height:1.6;margin:15px 0 22px}.iap-detail-grid article>p{font-size:15px;line-height:2.2;color:#4f605d}.iap-detail-facts{background:#f1f3ed;padding:clamp(22px,3.3vw,38px);align-self:start}.iap-detail-facts>strong{display:block;border-bottom:1px solid #cdd7ce;padding-bottom:14px;font-size:17px;font-family:'Noto Serif JP',serif}.iap-detail-facts dl{margin:12px 0 0}.iap-detail-facts dt{font-size:11px;font-weight:800;letter-spacing:.04em;color:#8a5944;margin:22px 0 5px}.iap-detail-facts dd{font-size:13px;line-height:1.8;margin:0;color:#34504d}.iap-evidence-note{background:#fffaf0;padding:22px 26px;border-left:3px solid #cb9272;margin:10px 0 24px}.iap-evidence-note strong{font-size:14px}.iap-evidence-note p,.iap-context-note{font-size:12px!important;line-height:1.9!important;color:#5d6f6a}.iap-detail-reference{font-size:12px;line-height:2}.iap-detail-reference a,.iap-timeline-link{color:#295b53;text-decoration:underline;text-underline-offset:4px}.iap-detail-return{padding:40px 0 55px;border-top:1px solid var(--line)}.iap-future-panel{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.8fr);gap:45px;align-items:center;padding:35px;background:#edf0e9;margin:20px 0 50px}.iap-future-panel p{font-size:14px;line-height:2.1}.iap-future-panel figure{margin:0}.iap-future-panel img{width:100%;height:380px;object-fit:cover}.iap-future-panel figcaption{font-size:11px;color:#617370;line-height:1.8;margin-top:9px}.iap-archive-summary{background:#f1f3ed;border-left:4px solid #c78565;padding:clamp(20px,3.7vw,45px);margin:-28px 0 57px}.iap-archive-summary h2{font-family:'Noto Serif JP',serif;font-size:clamp(23px,3vw,33px);font-weight:650;line-height:1.55;margin:0 0 14px}.iap-archive-summary p{font-size:14px;line-height:2;margin:0;color:#4d625e}.iap-timeline-link{display:inline-block;font-size:12px;font-weight:700;margin-top:9px}.iap-wakakusa-overview{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.85fr);gap:40px}.iap-wakakusa-overview h3{font-family:'Noto Serif JP',serif;margin:14px 0 15px;font-size:23px}.iap-credit-list{margin:0;display:grid;grid-template-columns:1fr 1fr;gap:8px 12px}.iap-credit-list>div{display:flex;gap:8px;border-bottom:1px solid #d3d9d2;padding:6px 0;font-size:12px;line-height:1.8}.iap-credit-list dt{font-size:11px;color:#8c6c5e;min-width:4.5em}.iap-credit-list dd{margin:0;font-weight:600}.iap-mini-metrics{display:flex;flex-wrap:wrap;gap:8px;margin-top:25px}.iap-mini-metrics span{display:inline-flex;align-items:baseline;background:#fff;padding:8px 10px;font-size:11px}.iap-mini-metrics strong{font-size:17px;margin-right:5px;color:#31635b}.iap-video-strip{background:#193e40;color:#fff;display:flex;align-items:center;justify-content:space-between;gap:22px;padding:23px 30px;margin:-32px 0 57px}.iap-video-strip strong{font-size:17px}.iap-video-strip p{font-size:12px;line-height:1.9;max-width:680px;margin:9px 0 0;color:#e1eae5}.iap-video-strip .arrow-link{flex-shrink:0;color:#fff}.iap-team-partners{max-width:920px;margin:45px auto;padding:35px 40px;border-top:1px solid #cbd3cd;border-bottom:1px solid #cbd3cd}.iap-team-partners h2{font-family:'Noto Serif JP',serif;font-size:clamp(25px,3vw,34px);line-height:1.5;margin:14px 0}.iap-team-partners>p:not(.kicker){font-size:13px;line-height:2;color:#536a64}.iap-credit-pills{display:flex;flex-wrap:wrap;gap:9px;margin:23px 0}.iap-credit-pills span{padding:9px 12px;border:1px solid #bdd0c6;background:#f8faf5;font-size:11px}.iap-team-partners .arrow-link{font-size:12px}.iap-international-past{font-size:12px;line-height:2;color:#e8e3dd}.iap-international-story{margin-bottom:10px;display:inline-block}
+@media (max-width:760px){.iap-detail-grid,.iap-future-panel,.iap-wakakusa-overview{grid-template-columns:1fr}.iap-detail-page{padding-top:36px}.iap-detail-grid{padding:8px 0 30px}.iap-future-panel{gap:24px;padding:21px}.iap-future-panel img{height:auto;max-height:420px;object-fit:contain}.iap-archive-summary{margin:-10px 0 36px}.iap-wakakusa-overview{gap:20px}.iap-credit-list{grid-template-columns:1fr 1fr}.iap-video-strip{flex-direction:column;align-items:flex-start;margin:-17px 0 44px}.iap-team-partners{padding:24px 4px}.iap-detail-grid article>p{font-size:14px}.iap-detail-grid h2{font-size:27px}}
+@media(max-width:440px){.iap-credit-list{grid-template-columns:1fr}.iap-credit-list>div{gap:16px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}

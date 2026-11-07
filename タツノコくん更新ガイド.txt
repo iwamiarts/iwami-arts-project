@@ -1,0 +1,31 @@
+タツノコくん紹介ページ追加（2026-11-06）
+
+【追加ページ】
+ character.html ... 公式キャラクター「タツノコくん」の紹介ページ。6種類の表情を掲載。
+
+【画像について】
+ images/tatsunoko-*.png は受け取った6枚のPNG画像を一切加工せず、そのままコピーしたものです。透明部分も維持しています。
+ 表示サイズや余白だけをCSSで指定しています。画像の色・形・内容には変更を加えていません。
+
+【元ファイルとサイト内ファイル名】
+ IMG_2313.PNG -> images/tatsunoko-punpun.png
+ IMG_2314.PNG -> images/tatsunoko-bikkuri.png
+ IMG_2315.PNG -> images/tatsunoko-teretere.png
+ IMG_2316.PNG -> images/tatsunoko-nikoniko.png
+ IMG_2317.PNG -> images/tatsunoko-ururu.png
+ IMG_2318.PNG -> images/tatsunoko-kirakira.png
+
+【主な更新箇所】
+ 全一般公開ページ: 上部メニュー「タツノコくん」、フッターの紹介リンクと小さなキャラクター画像
+ トップページ: タツノコくん紹介セクションとニュース付近の小さな案内
+ about.html / team.html / works.html: 途中の案内リンク
+ styles.css: 専用ページ・レスポンシブ表示用CSS
+
+【GitHub Desktopでの更新】
+ 1. ZIPを展開する。
+ 2. GitHub Desktop の Show in Finder で既存のリポジトリフォルダを開く。
+ 3. ZIPの「中身」をすべてリポジトリフォルダにコピーして、同名ファイルは上書きする。※ZIPファイルや一番外のフォルダそのものをコピーしない。
+ 4. GitHub Desktopで Changes を確認、Summaryに「Add Tatsunoko-kun character page」と入力して Commit to main。
+ 5. Push origin を押す。数分後に https://iwamiarts.jp/character.html を確認する。
+
+※元のサイト画像は変更していません。『あいと地球と競売人』の画像も追加流用していません。
