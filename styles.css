@@ -337,3 +337,17 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
 .magemage-sponsor-benefits p{font-size:12px;line-height:1.9;color:#526763;margin:9px 0 0}
 .magemage-sponsor .magemage-sponsor-note{font-size:11px;line-height:1.8;color:#687772;margin:16px 0 25px}
 @media(max-width:700px){.iap-teachers{padding:26px 20px 30px}.iap-teacher-grid,.magemage-sponsor-benefits{grid-template-columns:1fr}.iap-teacher-grid>div{padding:18px}.iap-collaborators{padding-top:28px;padding-bottom:60px}.iap-collaborator-names{gap:8px}.iap-collaborator-names>span{font-size:13px;padding:10px 14px}.magemage-sponsor{padding:28px 20px 32px}}
+
+/* Original poster and exhibition website — Stone Flowers (2021) */
+.iap-stoneflowers-poster{display:grid;grid-template-columns:minmax(0,1fr) minmax(260px,400px);gap:38px;align-items:center;background:#ecf0e8;border-top:3px solid #82a899;margin:0 0 70px;padding:34px 40px}
+.iap-stoneflowers-poster h2{font-family:'Noto Serif JP',serif;font-size:clamp(26px,3vw,40px);line-height:1.5;color:#173c3d;margin:16px 0}
+.iap-stoneflowers-poster>div>p:not(.kicker){font-size:13px;line-height:2;color:#536a63}
+.iap-stoneflowers-links{display:flex;flex-direction:column;align-items:flex-start;gap:8px;margin-top:25px}
+.iap-stoneflowers-links .arrow-link{margin-top:0;font-size:12px}
+.iap-stoneflowers-poster figure{margin:0}
+.iap-stoneflowers-poster figure>a{display:block;overflow:hidden;background:#dae8d8}
+.iap-stoneflowers-poster figure img{width:100%;height:auto;aspect-ratio:1;object-fit:cover;display:block;transition:transform .25s}
+.iap-stoneflowers-poster figure>a:hover img{transform:scale(1.025)}
+.iap-stoneflowers-poster figcaption{font-size:10px;line-height:1.8;color:#5d6d67;margin-top:10px}
+.iap-stoneflowers-poster figcaption a{text-decoration:underline;text-underline-offset:3px}
+@media(max-width:760px){.iap-stoneflowers-poster{grid-template-columns:1fr;padding:25px 22px;gap:26px}.iap-stoneflowers-poster figure{max-width:420px}.iap-stoneflowers-links .btn{min-width:0;max-width:100%}}
