@@ -351,3 +351,10 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
 .iap-stoneflowers-poster figcaption{font-size:10px;line-height:1.8;color:#5d6d67;margin-top:10px}
 .iap-stoneflowers-poster figcaption a{text-decoration:underline;text-underline-offset:3px}
 @media(max-width:760px){.iap-stoneflowers-poster{grid-template-columns:1fr;padding:25px 22px;gap:26px}.iap-stoneflowers-poster figure{max-width:420px}.iap-stoneflowers-links .btn{min-width:0;max-width:100%}}
+
+/* Wakakusa trailer embed */
+.iap-wakakusa-trailer{max-width:1000px;margin:0 auto 74px;padding:0}
+.iap-wakakusa-trailer .section-title{font-size:clamp(26px,3.2vw,42px);margin:14px 0 27px}
+.iap-wakakusa-trailer-frame{position:relative;width:100%;aspect-ratio:16/9;background:#123334;overflow:hidden;box-shadow:0 12px 35px #173d3d1c}
+.iap-wakakusa-trailer-frame iframe{display:block;position:absolute;inset:0;width:100%;height:100%;border:0}
+@media(max-width:700px){.iap-wakakusa-trailer{margin-bottom:56px}.iap-wakakusa-trailer .section-title{margin-bottom:18px}}
