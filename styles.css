@@ -467,3 +467,12 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
 .iap-wakakusa-official-flyer-pair figcaption{font-size:12px;color:#66675f;margin-top:12px}
 @media(max-width:900px){.iap-wakakusa-official-poster:has(.iap-wakakusa-official-flyer-pair){grid-template-columns:1fr}}
 @media(max-width:430px){.iap-wakakusa-official-flyer-pair{gap:10px}.iap-wakakusa-official-flyer-pair figcaption{font-size:11px}}
+
+/* 2024 Yunotsu festival: landscape program guide (shown only after asset upload) */
+.iap-yunotsu-program-flyer:not([hidden]){margin:60px 0;padding:clamp(20px,4vw,48px);background:#f1efe8;border:1px solid #e5dfd4}
+.iap-yunotsu-program-flyer[hidden]{display:none!important}
+.iap-yunotsu-program-flyer h2{font-family:"Noto Serif JP",serif;font-size:clamp(24px,3vw,36px);margin:12px 0 18px}
+.iap-yunotsu-program-flyer p:not(.kicker){line-height:2}
+.iap-yunotsu-program-flyer figure{margin:22px 0 0}
+.iap-yunotsu-program-flyer img{display:block;max-width:100%;width:100%;height:auto;box-shadow:0 12px 30px #102b2c19}
+.iap-yunotsu-program-flyer figcaption{font-size:12px;color:#62645d;margin-top:14px;text-align:center}
