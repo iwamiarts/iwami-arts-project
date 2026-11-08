@@ -447,3 +447,13 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
 .page-home .intro-copy,.page-home .intro-media{position:relative;z-index:1}
 @media(max-width:850px){.page-home .intro-iwami-map{width:min(95%,660px);left:50%;top:26%;transform:translate(-50%,-50%);opacity:.34}}
 @media(max-width:490px){.page-home .intro-iwami-map{width:125%;max-width:none;left:49%;top:21%;opacity:.25}}
+
+/* 2026 Little Women: original production poster */
+.iap-wakakusa-official-poster{display:grid;grid-template-columns:minmax(0,1fr) minmax(270px,410px);align-items:center;gap:clamp(24px,5vw,85px);padding:clamp(30px,6vw,70px);margin:50px 0 65px;background:#efede5;border:1px solid #e3ddd1}
+.iap-wakakusa-official-poster h2{font-family:"Noto Serif JP",serif;font-size:clamp(26px,3vw,38px);line-height:1.5;margin:12px 0 20px}
+.iap-wakakusa-official-poster p:not(.kicker){line-height:2}
+.iap-wakakusa-official-poster small,.iap-wakakusa-official-poster figcaption{font-size:12px;color:#66675f}
+.iap-wakakusa-official-poster figure{margin:0;text-align:center}
+.iap-wakakusa-official-poster img{width:100%;height:auto;display:block;box-shadow:0 14px 36px #182b2e28}
+.iap-wakakusa-official-poster figcaption{margin-top:12px}
+@media(max-width:720px){.iap-wakakusa-official-poster{grid-template-columns:1fr;padding:25px 18px;gap:25px;margin:30px 0 45px}.iap-wakakusa-official-poster figure{width:min(100%,390px);margin-inline:auto}}
