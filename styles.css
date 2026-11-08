@@ -314,3 +314,26 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
 /* Four member cards: balanced layout on both large and small screens */
 #team-preview .team-preview-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 @media(max-width:720px){#team-preview .team-preview-grid{grid-template-columns:1fr}}
+
+/* Added: instructors, collaborators, and sponsorship */
+.iap-teachers{margin-bottom:72px;padding:38px 40px 42px;background:#eeeae0;border-top:3px solid #b77d60}
+.iap-teachers .section-title{font-size:clamp(27px,3.2vw,39px);margin:10px 0 12px}
+.iap-teachers-intro{max-width:720px;font-size:13px;line-height:2;color:#526662;margin-bottom:26px}
+.iap-teacher-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.iap-teacher-grid>div{padding:22px 24px;background:#fffdf8;border:1px solid #dedcd1}
+.iap-teacher-grid span{font-size:11px;font-weight:800;letter-spacing:.09em;color:#a76650}
+.iap-teacher-grid h3{font-family:'Noto Serif JP',serif;font-size:23px;line-height:1.5;margin:9px 0}
+.iap-teacher-grid p{font-size:12px;line-height:1.9;color:#536763;margin:6px 0 0}
+.iap-collaborators{padding-top:40px;padding-bottom:90px}
+.iap-collaborators .section-title{font-size:clamp(30px,3.8vw,44px)}
+.iap-collaborator-names{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+.iap-collaborator-names>span{display:inline-block;background:#efede4;border:1px solid #d5d7cf;padding:14px 21px;font-size:15px;font-weight:600;color:#244846}
+.magemage-sponsor{margin:40px 0 55px;background:#f2efe7;border-top:4px solid #b5755b;padding:38px 42px 43px}
+.magemage-sponsor h2{font-family:'Noto Serif JP',serif;color:#163b3c;font-size:clamp(28px,3.5vw,42px);margin:14px 0 17px}
+.magemage-sponsor>p:not(.kicker){font-size:13px;line-height:2;color:#526763}
+.magemage-sponsor-benefits{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:25px 0 17px}
+.magemage-sponsor-benefits>div{padding:20px 22px;background:#fffdfa;border:1px solid #ded9cd}
+.magemage-sponsor-benefits strong{font-size:15px;color:#1d4544}
+.magemage-sponsor-benefits p{font-size:12px;line-height:1.9;color:#526763;margin:9px 0 0}
+.magemage-sponsor .magemage-sponsor-note{font-size:11px;line-height:1.8;color:#687772;margin:16px 0 25px}
+@media(max-width:700px){.iap-teachers{padding:26px 20px 30px}.iap-teacher-grid,.magemage-sponsor-benefits{grid-template-columns:1fr}.iap-teacher-grid>div{padding:18px}.iap-collaborators{padding-top:28px;padding-bottom:60px}.iap-collaborator-names{gap:8px}.iap-collaborator-names>span{font-size:13px;padding:10px 14px}.magemage-sponsor{padding:28px 20px 32px}}
