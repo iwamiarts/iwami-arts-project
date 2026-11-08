@@ -375,3 +375,35 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
 .youtube-thumbnail-caption{position:absolute;z-index:1;bottom:15px;left:17px;color:#fff;font-size:10px;letter-spacing:.12em;font-weight:800}
 @media(max-width:850px){.youtube-card{grid-template-columns:1fr}.youtube-card-image{min-height:270px;aspect-ratio:16/9}.youtube-card .social-cta{margin-top:0}}
 @media(max-width:590px){.youtube-card{gap:22px}.youtube-card-image{min-height:185px}.youtube-card h3 small{font-size:10px}}
+
+/* Yunotsu 2024 festival poster and expanded program */
+.iap-yunotsu-summary-facts{display:flex;flex-wrap:wrap;gap:10px;margin-top:25px}
+.iap-yunotsu-summary-facts span{display:inline-flex;align-items:baseline;gap:7px;background:#fff;border:1px solid #e3e4dc;padding:11px 14px;font-size:11px;color:#57716b}
+.iap-yunotsu-summary-facts strong{font-size:14px;color:#224c4b}
+.iap-yunotsu-poster{display:grid;grid-template-columns:minmax(0,.95fr) minmax(250px,.85fr);align-items:center;gap:42px;margin:10px 0 88px;padding:36px 42px;background:#e7ebe5;border-top:3px solid #b98161}
+.iap-yunotsu-poster-copy .kicker{margin:0}
+.iap-yunotsu-poster-copy h2{font-family:'Noto Serif JP',serif;font-size:clamp(28px,3.5vw,43px);line-height:1.6;color:#204744;margin:18px 0}
+.iap-yunotsu-poster-copy p:not(.kicker){font-size:13px;line-height:2.15;color:#536b66}
+.iap-yunotsu-poster-copy .arrow-link{font-size:12px;margin-top:25px}
+.iap-yunotsu-poster figure{margin:0;min-width:0}
+.iap-yunotsu-poster figure>a{display:block;background:#cbd8d0;border:8px solid #faf8f1;box-shadow:0 16px 32px #1c49431c}
+.iap-yunotsu-poster figure img{display:block;width:100%;height:auto;max-height:680px;object-fit:contain}
+.iap-yunotsu-poster figcaption{font-size:10px;line-height:1.8;color:#60716a;margin-top:13px}
+.iap-yunotsu-programs{margin-bottom:42px}
+.iap-yunotsu-programs .section-title{margin-top:14px;font-size:clamp(31px,4vw,46px)}
+.iap-yunotsu-programs-intro{font-size:13px;line-height:2.1;color:#566c67;max-width:740px;margin:20px 0 31px}
+.iap-yunotsu-program-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.iap-yunotsu-program-grid article{background:#fffefa;border:1px solid #dadfd7;border-top:3px solid #92b1a6;padding:27px 30px;min-width:0}
+.iap-yunotsu-genre{display:inline-block;font-size:10px;color:#ac765e;font-weight:800;letter-spacing:.12em}
+.iap-yunotsu-program-grid h3{font-family:'Noto Serif JP',serif;font-size:clamp(24px,2.7vw,32px);color:#224846;margin:14px 0 4px}
+.iap-yunotsu-program-grid p{font-size:13px;line-height:2.05;color:#596a65;margin:14px 0}
+.iap-yunotsu-program-grid .iap-yunotsu-program-role{font-size:12px;font-weight:800;color:#aa7056;margin:0}
+.iap-yunotsu-program-grid small{font-size:11px;line-height:1.9;color:#647570;display:block;border-top:1px solid #e3e6dc;padding-top:12px;margin-top:17px}
+.iap-yunotsu-program-grid a{color:#29635f;text-decoration:underline;text-underline-offset:4px}
+.iap-yunotsu-context{background:#e4ece5;border-left:4px solid #7b9f91;padding:23px 30px;margin-bottom:75px}
+.iap-yunotsu-context h3{font-family:'Noto Serif JP',serif;font-size:23px;color:#244945;margin:3px 0 12px}
+.iap-yunotsu-context p{font-size:13px;line-height:2.1;color:#566964;margin:0 0 13px}
+.iap-yunotsu-context .iap-yunotsu-source{font-size:11px;color:#68766c}
+.iap-yunotsu-source a{text-decoration:underline;text-underline-offset:3px}
+@media(max-width:830px){.iap-yunotsu-poster{grid-template-columns:1fr;padding:28px 25px;gap:27px}.iap-yunotsu-poster figure{max-width:520px;width:100%;margin:0 auto}.iap-yunotsu-program-grid{grid-template-columns:1fr}}
+@media(max-width:600px){.iap-yunotsu-poster{padding:24px 18px;margin-bottom:65px}.iap-yunotsu-poster figure>a{border-width:5px}.iap-yunotsu-program-grid article{padding:24px 20px}.iap-yunotsu-context{padding:20px}.iap-yunotsu-summary-facts{gap:7px}.iap-yunotsu-summary-facts span{padding:9px 10px}}
