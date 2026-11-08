@@ -440,3 +440,10 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
 .map-data-credit a{text-decoration:underline;text-underline-offset:3px}
 @media(max-width:850px){.hero-watermark{width:min(88vw,620px);right:-26vw;top:57%;opacity:.34}}
 @media(max-width:490px){.hero-watermark{right:-40vw;top:61%;opacity:.26}}
+
+/* Iwami geographic watermark: quiet background only for introduction section */
+.page-home .intro{position:relative;isolation:isolate}
+.page-home .intro-iwami-map{position:absolute;z-index:-1;pointer-events:none;user-select:none;width:min(58%,690px);height:auto;left:0;top:48%;transform:translate(-12%,-50%);opacity:.58;filter:none}
+.page-home .intro-copy,.page-home .intro-media{position:relative;z-index:1}
+@media(max-width:850px){.page-home .intro-iwami-map{width:min(95%,660px);left:50%;top:26%;transform:translate(-50%,-50%);opacity:.34}}
+@media(max-width:490px){.page-home .intro-iwami-map{width:125%;max-width:none;left:49%;top:21%;opacity:.25}}
