@@ -21,7 +21,7 @@
 .business summary {cursor:pointer;font-weight:700;text-decoration:underline;text-underline-offset:4px}
 .business ul {padding-inline-start:1.4em;list-style:disc}
 .biz-wide {margin:28px 0 0}
-.biz-wide img {width:100%;height:clamp(200px,35vw,440px);object-fit:cover}
+.biz-wide img {width:100%;height:auto;display:block}
 .biz-wide figcaption {color:#555;font-size:.85rem}
 .biz-records img {width:100%;aspect-ratio:16/9;object-fit:cover;margin-bottom:12px}
 .biz-records a {color:inherit;text-decoration:none}
@@ -51,3 +51,5 @@
  .biz-steps {grid-template-columns:1fr 1fr}
  .business fieldset {padding:15px}
 }
+
+#strengths {scroll-margin-top:90px}
