@@ -2,6 +2,12 @@
 const menuToggle=document.querySelector('.menu-toggle');
 const nav=document.querySelector('.site-nav');
 if(menuToggle&&nav){
+  if (!nav.querySelector('a[href="business.html"]')) {
+    const businessLink = document.createElement('a');
+    businessLink.href = 'business.html';
+    businessLink.textContent = '企業・行政の皆様へ';
+    nav.insertBefore(businessLink, nav.querySelector('.nav-contact'));
+  }
   const setMenu=(open)=>{menuToggle.setAttribute('aria-expanded',String(open));menuToggle.setAttribute('aria-label',open?'メニューを閉じる':'メニューを開く');nav.classList.toggle('open',open);document.body.classList.toggle('menu-open',open);};
   menuToggle.addEventListener('click',()=>setMenu(menuToggle.getAttribute('aria-expanded')!=='true'));
   nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>setMenu(false)));

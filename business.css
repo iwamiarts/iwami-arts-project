@@ -1,0 +1,53 @@
+.business {color:#20221f;background:#fff;font-family:system-ui,sans-serif;line-height:1.85}
+.business h1,.business h2,.business h3 {line-height:1.45;letter-spacing:.015em;margin:0;text-wrap:pretty}
+.business h1,.business h2 {font-family:"Yu Mincho","Hiragino Mincho ProN",serif}
+.business h2 {font-size:clamp(1.7rem,3.3vw,3.2rem)}
+.business h3 {font-size:clamp(1.12rem,1.8vw,1.5rem)}
+.business p {margin:1em 0}
+.biz-wrap {width:min(1120px,89%);margin:auto}
+.biz-hero {position:relative;isolation:isolate;display:grid;align-items:end;min-height:clamp(470px,72vh,720px);background:#171819;color:#fff}
+.biz-hero>img,.biz-hero:after {position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}
+.biz-hero:after {content:"";background:linear-gradient(0deg,#101111e8,transparent 85%),linear-gradient(90deg,#10111191,transparent 75%);z-index:-1}
+.biz-hero-text {width:min(1120px,89%);margin:0 auto;padding:60px 0 42px}
+.business h1 {font-size:clamp(2.05rem,5.4vw,5.3rem);line-height:1.3}
+.biz-button {display:inline-block;background:#fff;color:#141715;padding:12px 23px;border:1px solid currentColor;border-radius:2px;line-height:1.55;font:inherit;font-weight:700;cursor:pointer;text-decoration:none}
+.biz-button:hover,.biz-button:focus-visible {background:#ecebe5}
+.biz-intro,.biz-section {padding:clamp(45px,6.5vw,92px) 0;border-bottom:1px solid #d8d8d2}
+.biz-intro {display:grid;grid-template-columns:1fr 1.5fr;gap:6%}
+.biz-intro p:first-child {margin-top:0;font-weight:700}
+.biz-services,.biz-records,.biz-strength {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:35px 5%;margin-top:32px}
+.biz-services article {border-top:2px solid #343a35;padding-top:16px}
+.biz-services small {display:block;color:#6a5947;font:italic 1.3rem Georgia,serif;margin-bottom:8px}
+.business summary {cursor:pointer;font-weight:700;text-decoration:underline;text-underline-offset:4px}
+.business ul {padding-inline-start:1.4em;list-style:disc}
+.biz-wide {margin:28px 0 0}
+.biz-wide img {width:100%;height:clamp(200px,35vw,440px);object-fit:cover}
+.biz-wide figcaption {color:#555;font-size:.85rem}
+.biz-records img {width:100%;aspect-ratio:16/9;object-fit:cover;margin-bottom:12px}
+.biz-records a {color:inherit;text-decoration:none}
+.biz-records a:hover h3 {text-decoration:underline}
+.biz-strength {grid-template-columns:repeat(3,minmax(0,1fr))}
+.biz-note {margin-top:32px;padding:24px;border-left:3px solid #453d33;background:#f4f3ef}
+.biz-link {display:inline-block;color:inherit;text-decoration:underline;text-underline-offset:.25em;font-weight:700}
+.biz-services+.biz-link {margin-top:30px}
+.biz-partner {background:#202922;color:#fff;padding:clamp(45px,7vw,90px) 0}
+.biz-partner p {max-width:52em}
+.biz-steps {display:grid;grid-template-columns:repeat(3,1fr);gap:10px 28px;padding-left:1.7em;list-style:decimal-leading-zero}
+.biz-steps li {padding:9px 0;border-bottom:1px solid #ccc}
+#consult {scroll-margin-top:90px}
+.business fieldset {margin:28px 0 22px;padding:20px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 22px;border:1px solid #ccc;min-width:0}
+.business legend {padding:0 8px;font-weight:700}
+.business label {display:grid;gap:5px;font-size:.95rem}
+.business input,.business select,.business textarea {border:1px solid #858984;border-radius:2px;padding:10px;background:white;color:#222;font:inherit;font-size:16px;width:100%;min-width:0;box-sizing:border-box}
+.business textarea {resize:vertical}
+.biz-full {grid-column:1/-1}
+.business button.biz-button {background:#212722;color:white}
+.business [hidden] {display:none}
+@media(max-width:720px){
+ .biz-hero-text {padding:52px 0 34px}
+ .biz-hero>img {object-position:55% center}
+ .biz-services,.biz-strength,.biz-records,.biz-intro,.business fieldset {grid-template-columns:1fr}
+ .biz-intro {gap:15px}
+ .biz-steps {grid-template-columns:1fr 1fr}
+ .business fieldset {padding:15px}
+}
